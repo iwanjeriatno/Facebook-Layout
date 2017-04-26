@@ -1,0 +1,150 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.wrap {
+    width: 100%;
+}
+header {
+    background-color: #3B5998;
+    height: 80px;
+}
+    header .title {
+        text-align: left;
+        float: left;
+        padding-left: 100px;
+    }
+    header .title h1 {
+        font-family: sans-serif;
+        color: #ffffff;
+        font-weight: bold;
+    }
+    header .login {
+        float: right;
+        display: inline;
+        padding-right: 100px;
+        color: #fff;
+        padding-top: 10px;
+    }
+        header .login .email {
+            width: 150px;
+            float: left;
+        }
+        header .login .password {
+            width: 150px;
+            float: left;
+            margin: 0 10px;
+        }
+        header .login .button {
+            float: left;
+            width: 50px;
+        }
+        header .login input[type=password] {
+            height: 20px;
+        }
+        header .login input[type=email] {
+            height: 20px;
+        }
+        header .login input[type=submit] {
+            height: 25px;
+        }
+
+section{
+    background-color: #EEF0F6;
+    height: 600px;
+}
+    section .space {
+        padding-left: 100px;
+        float: left;
+    }
+        section .desc h3 {
+            padding: 20px;
+            margin: 0;
+            text-align: left;
+            font-family: sans-serif;
+        }
+        section .img {
+            padding-left: 100px;
+        }
+    section .regist {
+        margin-left: 100px;
+        float: left;
+    }
+        section .regist {
+            width: 450px;
+        }
+        section .regist .title-form h1 {
+            padding: 10px 0;
+            margin: 0;
+            font-size: 2em;
+        }
+        section .regist .title-form small {
+            font-size: 1em;
+            text-align: left;
+        }
+            section .regist .form input[type=text] {
+                height: 25px;
+                width: 200px;
+                margin: 10px 0 10px;
+                padding: 5px 11px;
+                border-radius: 10px;
+                border: 0;
+            }
+            section .regist .form input[type=tel] {
+                height: 25px;
+                width: 96%;
+                margin: 10px 0 10px;
+                padding: 5px 10px;
+                border-radius: 10px;
+                border: 0;
+            }
+            section .regist .form input[type=password] {
+                height: 25px;
+                width: 96%;
+                margin: 10px 0 10px;
+                padding: 5px 10px;
+                border-radius: 10px;
+                border: 0;
+            }
+            section .regist .form .birthday .day {
+                height: 25px;
+                margin: 10px 0 10px;
+                padding: 5px 10px;
+                border: 0;
+            }
+            section .regist .form .birthday .month {
+                height: 25px;
+                margin: 10px 0 10px;
+                padding: 5px 10px;
+                border: 0;
+            }
+            section .regist .form .birthday .year {
+                height: 25px;
+                margin: 10px 0 10px;
+                padding: 5px 10px;
+                border: 0;
+            }
+            section .regist .form .birthday p {
+                font-size: 0.7em;
+                float: right;
+            }
+            section .regist .form .gender input[type=radio] {
+                font-size: 2em;
+                margin: 10px 10px 50px;
+            }
+            section .regist .form .info p {
+                font-size: 0.8em;
+                color: gray;
+                padding: 0;
+                margin: 0;
+            }
+            section .regist .form .submit input[type=submit] {
+                height: 45px;
+                background-color: #72B15D;
+                color: #ffffff;
+                font-size: 1em;
+                margin: 30px 0 30px;
+                padding: 10px 15px;
+                border-radius: 10px;
+                border: 0;
+            }
